@@ -149,22 +149,18 @@ if (showMoreSkillsBtn && skillGroups.length > 2) {
 
 // ==================== PROJECT MODAL ====================
 const projectModalData = {
-    llmvault: {
-        title: 'LLMVault',
-        tags: ['LLM Security', 'Cyber Lab'],
-        summary: 'A practical LLM security lab focused on prompt injection, RAG abuse, agent misuse, and data leakage risks through realistic training scenarios.',
-        stack: ['Python', 'Flask', 'Ollama'],
-        liveUrl: 'https://james-vault.vercel.app/',
-        githubUrl: 'https://github.com/jamescarter/llm-vault',
+    medtrack: {
+        title: 'MedTrack',
+        tags: ['Healthcare', 'Patient Care'],
+        summary: 'A healthcare dashboard for tracking medications, managing appointments, monitoring health, and keeping medical records organized.',
+        liveUrl: 'https://medtrack.azurewebsite.net',
         image: 'project-image-one'
     },
-    htmlcreator: {
-        title: 'HTML Creator',
-        tags: ['HTML', 'Web Design'],
-        summary: 'A fast HTML generation workspace for creating organized, responsive pages with reusable sections and clean semantic layouts.',
-        stack: ['HTML', 'CSS', 'JavaScript'],
-        liveUrl: 'https://html-creator-next.vercel.app/',
-        githubUrl: 'https://github.com/jamescarter/html-creator',
+    aireastudio: {
+        title: 'Airea Studio',
+        tags: ['AI Marketing', 'Brand Content'],
+        summary: 'An AI-powered marketing studio that turns your brief into on-brand campaigns, social posts, ad copy, and visuals across channels.',
+        liveUrl: 'https://www.aireastudio.ai',
         image: 'project-image-two'
     },
     commerceapi: {
@@ -185,13 +181,11 @@ const projectModalData = {
         githubUrl: 'https://github.com/jamescarter/data-pulse',
         image: 'project-image-four'
     },
-    promptflow: {
-        title: 'PromptFlow Studio',
-        tags: ['AI', 'Automation'],
-        summary: 'A workflow studio for building AI task chains, reusable prompts, and operational automations across internal and client-facing processes.',
-        stack: ['Python', 'OpenAI', 'FastAPI'],
-        liveUrl: 'https://prompthero.com',
-        githubUrl: 'https://github.com/jamescarter/prompt-flow',
+    engagedai: {
+        title: 'EngagedAI',
+        tags: ['Automotive AI', 'Sales Agents'],
+        summary: 'AI sales agents for automotive dealerships that engage leads, book appointments, and keep customer conversations moving across channels.',
+        liveUrl: 'https://engagedai.io/',
         image: 'project-image-five'
     },
     clientflow: {
